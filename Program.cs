@@ -1,4 +1,4 @@
-﻿string [] startArray = {"Hello", "2", "world", ":-)"};
+﻿string [] startArray = {"hello", "2", "world", ":-)"};
 
 int lengthStringLimit = 3;
 
