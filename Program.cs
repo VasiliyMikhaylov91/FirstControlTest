@@ -1,12 +1,13 @@
 ﻿string [] startArray = {"Hello", "2", "world", ":-)"};
 
+int lengthStringLimit = 3;
+
 string endString = String.Empty;
 
-int lengthLimit = 3;
 
 for (int i = 0; i < startArray.Length; i++)
 {
-    if (startArray[i].Length <= lengthLimit) endString += startArray[i] + ";";
+    if (startArray[i].Length <= lengthStringLimit) endString += startArray[i] + ";";
 }
 
 string[] endArray = endString.Split(";");
